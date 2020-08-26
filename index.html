@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>countdown</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body background="clock.jpg">
+	<header>
+		<h1>countdown</h1>
+	</header>
+	<div class="content">
+	<div class="counter"></div>
+
+	<input type="number" id="seconds" placeholder="seconds">
+
+	<div class="buttons">
+		<button class="btn start" id="start" value="1" onclick="check(this)">start</button>
+		<button class="btn start" id="continue" value="1" onclick="check(this)">continue</button>
+		<button class="btn stop" id="stop" value="0" onclick="check(this)">stop</button>
+		<button class="btn start" id="submit" value="1" onclick="submit()">submit</button>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
